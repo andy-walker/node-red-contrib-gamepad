@@ -1,0 +1,587 @@
+[
+    {
+        "id": "098f443d730113a4",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b349c3fe94098a99",
+        "type": "gamepad",
+        "z": "098f443d730113a4",
+        "name": "",
+        "x": 140,
+        "y": 380,
+        "wires": [
+            [
+                "9a6563f09d7012a8"
+            ],
+            [
+                "366cf4b9daeb26f5"
+            ],
+            [
+                "d5744281156e0836"
+            ],
+            [
+                "e33c1d25e70ea1cd"
+            ],
+            [
+                "1af9de0061023b1d"
+            ],
+            [
+                "6297da3bab2c114c"
+            ],
+            [
+                "ba537ffae5196792"
+            ],
+            [
+                "2a5e10614188270e"
+            ],
+            [
+                "4339464a0e0c4957"
+            ],
+            [
+                "ab35f80f0c44a246"
+            ],
+            [
+                "d1ad8273942d0639"
+            ],
+            [
+                "219c91be0fd38158"
+            ],
+            [
+                "4b57337b1508567c"
+            ],
+            [
+                "5715d62c085c6078"
+            ],
+            [
+                "133484248b3d0d39"
+            ],
+            [
+                "f655ea2cdaed4cab"
+            ],
+            [
+                "7a46d5fb100c2ab2"
+            ],
+            [
+                "c33745988f6486fb"
+            ],
+            [
+                "582b1c9075e051f8"
+            ]
+        ]
+    },
+    {
+        "id": "9a6563f09d7012a8",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "53a4cfa135ec10a4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "left-stick x-axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 380,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "366cf4b9daeb26f5",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "840bd4fae4bc1aaa",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "left-stick y-axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 380,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e33c1d25e70ea1cd",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "fa8e69e5934e6a11",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "right-stick y-axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 390,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d5744281156e0836",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "b9c622e26330f932",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "right-stick x-axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 390,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1af9de0061023b1d",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cross",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 350,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "6297da3bab2c114c",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Circle",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 350,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ba537ffae5196792",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Triangle",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 360,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2a5e10614188270e",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Square",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 360,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4339464a0e0c4957",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L1",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 350,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ab35f80f0c44a246",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "R1",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 350,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d1ad8273942d0639",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "a8ff8b01a0db5d44",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "L2 axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 360,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "219c91be0fd38158",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "a39bd18e7df1aafb",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "R2 axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 360,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "4b57337b1508567c",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "L2 (button)",
+        "label": "L2",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 370,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "5715d62c085c6078",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "R2 (button)",
+        "label": "R2",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 370,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "133484248b3d0d39",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "ce40b9f66a45a263",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "dpad x-axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 370,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "f655ea2cdaed4cab",
+        "type": "ui_gauge",
+        "z": "098f443d730113a4",
+        "name": "",
+        "group": "1949ce94dc0011c9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "dpad y-axis",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-32767",
+        "max": "32767",
+        "colors": [
+            "#23d100",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 370,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "7a46d5fb100c2ab2",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Share",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 350,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "c33745988f6486fb",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Options",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 360,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "582b1c9075e051f8",
+        "type": "ui_text",
+        "z": "098f443d730113a4",
+        "group": "c77015e63daa2317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Playstation",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 370,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "53a4cfa135ec10a4",
+        "type": "ui_group",
+        "name": "Gauge 1",
+        "tab": "212806881f4cd184",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "840bd4fae4bc1aaa",
+        "type": "ui_group",
+        "name": "Gauge 2",
+        "tab": "212806881f4cd184",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fa8e69e5934e6a11",
+        "type": "ui_group",
+        "name": "Gauge 4",
+        "tab": "212806881f4cd184",
+        "order": 5,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b9c622e26330f932",
+        "type": "ui_group",
+        "name": "Gauge 3",
+        "tab": "212806881f4cd184",
+        "order": 4,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c77015e63daa2317",
+        "type": "ui_group",
+        "name": "Buttons",
+        "tab": "212806881f4cd184",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a8ff8b01a0db5d44",
+        "type": "ui_group",
+        "name": "Gauge 5",
+        "tab": "212806881f4cd184",
+        "order": 6,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a39bd18e7df1aafb",
+        "type": "ui_group",
+        "name": "Gauge 6",
+        "tab": "212806881f4cd184",
+        "order": 7,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ce40b9f66a45a263",
+        "type": "ui_group",
+        "name": "Gauge 7",
+        "tab": "212806881f4cd184",
+        "order": 8,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1949ce94dc0011c9",
+        "type": "ui_group",
+        "name": "Gauge 8",
+        "tab": "212806881f4cd184",
+        "order": 9,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "212806881f4cd184",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
