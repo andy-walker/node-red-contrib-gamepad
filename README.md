@@ -11,7 +11,7 @@ This was written for a friend to support gamepad input in node-red. It's been te
 
 Provided as-is in the hope it's useful. 
 
-It was written to his requirements, so may not do exactly what you want, but feel free to fork, build on it, and generally do with it what you wish.
+It was written to his requirements, so may not do exactly what you want, but feel free to fork it, build on it, and generally do with it what you wish.
 
 ## Requirements
 Requires the 'joystick' package is installed, eg:
@@ -34,13 +34,15 @@ Run the following terminal commands:
 
 ```
 cd ~/.node-red
-
+```
+```
 npm i https://github.com/andy-walker/node-red-contrib-gamepad.git
-
+```
+```
 node-red-restart
 ```
 
 ## Post-installation
 Once installed, the 'gamepad' node should appear in your palette in the 'function' section.
 
-An demo flow is included in this repo in the 'examples' folder.
+A demo flow is included in this repo in the 'examples' folder.
